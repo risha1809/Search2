@@ -49,10 +49,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //        @Then("^user should able to see text \"([^\"]*)\"$")
 //        public void user_should_able_to_see_text(String arg1) throws Throwable {
 //            String A= driver.findElement(By.name("name")).getText();
-//            System.out.println(A);
-//            driver.close();
-//
-//        }
+           System.out.println(A);
+            driver.close();
+       }
 
 
     }
