@@ -36,7 +36,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
         @When("^click on search button$")
         public void click_on_search_button() throws Throwable {
 
-            System.out.println("smitha");
+  //          System.out.println("smitha");
         }
 
         @Then("^should be able to see all products related to that ProductType$")
@@ -49,8 +49,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //        @Then("^user should able to see text \"([^\"]*)\"$")
 //        public void user_should_able_to_see_text(String arg1) throws Throwable {
 //            String A= driver.findElement(By.name("name")).getText();
-           System.out.println(A);
-            driver.close();
+//           System.out.println(A);
+ //           driver.close();
        }
 
 
