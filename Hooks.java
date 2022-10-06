@@ -5,9 +5,9 @@ import cucumber.api.java.Before;
 
 public class Hooks extends ComFunc {
 @Before
-    public void open(){
+   // public void open(){
 
-        openbrowser();
+        //openbrowser();
     }
 
   //  @After
