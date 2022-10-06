@@ -10,8 +10,8 @@ public class Hooks extends ComFunc {
         openbrowser();
     }
 
-    @After
-    public void close(){
+  //  @After
+   // public void close(){
         closebrowser();
     }
 }
